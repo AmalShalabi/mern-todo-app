@@ -1,0 +1,22 @@
+POST http://localhost:5500/api/item
+Content-Type: application/json
+
+{
+    "item": "85858"
+}
+
+###
+
+GET  http://localhost:5500/api/items
+Content-Type: application/json
+###
+
+PUT http://localhost:5500/api/item/63c6cbc4e92d484041177947
+Content-Type: application/json
+
+{
+    "item": "Ola"
+}
+###
+DELETE  http://localhost:5500/api/item/63c7cce61930ca4eab533600
+Content-Type: application/json
